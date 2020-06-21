@@ -6,18 +6,12 @@
 /*   By: mmagongw <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 16:43:19 by mmagongw          #+#    #+#             */
-/*   Updated: 2020/06/21 10:55:56 by mmagongw         ###   ########.fr       */
+/*   Updated: 2020/06/21 13:20:32 by mmagongw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+  void ft_putchar(char c);
 
-#include <unistd.h>
-
-int     ft_putchar(char c)
-{
-    write(1, &c, 1);
-    return (0);
-}
 
 void    ft_print_alphabet(void)
 {
@@ -31,8 +25,4 @@ void    ft_print_alphabet(void)
     }
 }
 
-int     main()
-{
-    ft_print_alphabet();
-    return (0);
-}
+
